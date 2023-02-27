@@ -42,7 +42,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>gcp-cluster.jar</finalName>
+		<finalName>gcp-cluster</finalName>
 	</build>
 
 </project>
