@@ -1,11 +1,21 @@
 Access key:
 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
 
+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
+
+maven wrapper:
+
+mvn -N wrapper:wrapper
+
+
+Deploy to App engine:
+
+./mvnw -DskipTests package appengine:deploy
+
 
 Cloud create artifact registry:
 
 gcloud artifacts repositories create gcp-cluster-repo --location=us-west2 --repository-format=Docker
-
 
 
 Cloud Build Docker Build and push to Artifact Registry:
